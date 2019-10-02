@@ -264,3 +264,11 @@ textarea {
   }
 }
 
+
+#inline_menu {
+}
+
+#Lang_menu {
+	float: right;
+	padding: 0px 50px 0px 0px;
+}
