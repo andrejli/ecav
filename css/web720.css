@@ -1,0 +1,19 @@
+/* CSS Document */
+
+
+
+#header_wrapper {
+	font-size: 5vw;
+}
+
+#inline_menu {
+	display: inline-block;
+}
+
+@media (max-width: 718px){
+}
+
+#Lang_menu {
+	display: inline-block;
+	float: right;
+}
