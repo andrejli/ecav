@@ -272,3 +272,12 @@ textarea {
 	float: right;
 	padding: 0px 50px 0px 0px;
 }
+
+#main_wrapper {
+	display: inline-block;
+}	
+
+#side_panel {
+	display: block;
+	
+}
