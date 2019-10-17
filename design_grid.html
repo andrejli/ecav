@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+
+<html>
+<meta charset="UTF-8">
+<style>
+/* .item1 { grid-area: header; } */
+.item2 { grid-area: menu; }
+.item3 { grid-area: main; }
+.item4 { grid-area: right; }
+.item5 { grid-area: footer; }
+
+.grid-container {
+display: grid;
+grid-template-areas:
+  'menu main main right right'
+  'menu main main right right'
+  'menu main main right right'
+  'footer footer footer footer footer';
+grid-gap: 10px;
+background-color: #2196F3;
+padding: 10px;
+}
+
+.grid-container > div {
+background-color: rgba(255, 255, 255, 0.8);
+text-align: center;
+/* padding: 20px 0; */
+/* font-size: 30px; */
+}
+</style>
+      <link rel="stylesheet" href="css/normalize.css">
+      <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+  <header>
+    <h1>Grid Layout</h1>
+    <p>This grid layout contains six columns and three rows:</p>
+  </header>
+
+<div class="grid-container">
+<!-- <div class="item1"> -->
+  <!-- <h1>Aktualne udalosti a Aktuality</h1> -->
+<!-- </div> -->
+<div class="item2">
+  <img id="spevokol" alt="Laudate Dominum" src="img/SPevokol.png">
+  <div class="infotext">
+     <p>ŽIVOT V ZBORE SLUŽBY BOŽIE nedeľa – 9:30 hod, slovenský ev. kostol Modra / 11:00 hod, modlitebňa Vinosady (1. a 3. nedeľa v mesiaci) </p>
+    <p>DETSKÁ BESIEDKA nedeľa – 9:30 hod, zborová miestnosť na ev. fare Modra</p>
+    <p>KONFIRMAČNÁ PRÍPRAVA 1. ročník: pondelok – 16:00 hod, zborová miestnosť na ev. fare Modra 2. ročník: utorok – 17:00 hod, zborová miestnosť na ev. fare Modra</p>
+    <p>eMko – STRETNUTIE MLÁDEŽE utorok – 18:00 hod, zborová miestnosť na ev. fare Modra</p>
+    <p>MODLITEBNÉ SPOLOČENSTVO utorok – 20:00 hod, kancelária farského úradu Modra SPEVOKOL štvrtok – 18:00 hod, zborová miestnosť na ev. fare Modra  </p>
+  </div>
+  <img id="Sluzby_Bozie" alt="SluzbyBozie" src="img/Sluzby_Bozie.png">
+</div>
+
+<div class="item3">
+    <h2>Aktualne udalosti a aktuality</h2>
+</div>
+
+<div class="item4">Popis produktu</div>
+<div class="item5">Copyright 2019 </div>
+</div>
+  </body>
+</html>

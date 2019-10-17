@@ -283,7 +283,7 @@ textarea {
 
 #main_wrapper {
 	display: inline-block;
-}	
+}
 
 #side_panel {
 	display: block;
@@ -340,7 +340,7 @@ opacity: 1;
 	display: inline-block;
 	margin: 2%;
 	border: 5px red solid;
-	
+
 }
 
 .infotext {
@@ -363,8 +363,9 @@ opacity: 1;
 #Sluzby_Bozie {
 	top: 1360px;
 	left: 39px;
-	width: 186px;
-	height: 211px;
+	width: 100%;
+	/* height: 211px; */
+  height: 211px;
 	background: transparent url('img/My Post (2).png') 0% 0% no-repeat padding-box;
 	border: 1px solid #707070;
 	opacity: 1;
