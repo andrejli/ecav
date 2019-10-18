@@ -1,7 +1,7 @@
 /* CSS Document */
 
 /* .item1 { grid-area: header; } */
-.item2 { 
+.item2 {
 	grid-area: menu;
 	text-align: center;
 	width: auto;
@@ -13,10 +13,10 @@
 .grid-container {
 display: grid;
 grid-template-areas:
-  'menu main main main'
-  'menu main main main'
-  'menu main main main'
-  'footer footer footer footer';
+  'menu main main main main main main'
+  'menu main main main main main main'
+  'menu main main main main main main'
+  'footer footer footer footer footer footer footer';
 grid-gap: 10px;
 background-color: #2196F3;
 padding: 10px;
@@ -24,7 +24,7 @@ padding: 10px;
 
 .grid-container > div {
 background-color: rgba(255, 255, 255, 0.8);
-text-align: center;
+/* text-align: center; */
 /* padding: 20px 0; */
 /* font-size: 30px; */
 }
