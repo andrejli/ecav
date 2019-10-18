@@ -8,7 +8,11 @@
 }
 .item3 { grid-area: main; }
 /*.item4 { grid-area: right; }*/
-.item5 { grid-area: footer; }
+.item5 { 
+	grid-area: footer;
+	text-align: center;
+}
+
 
 .grid-container {
 display: grid;
@@ -37,4 +41,9 @@ background-color: rgba(255, 255, 255, 0.8);
 	padding: 10px 10px;
 	border: 2px darkorange solid;
 	border-radius: 5px;
+}
+
+.page_title {
+	font-size: 1.5em;
+	margin: auto 5%;
 }
