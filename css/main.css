@@ -269,9 +269,9 @@ textarea {
 
 #inline_menu {
 	display: inline;
-	margin: 2%;
+	margin: 2% 0% 2% 0%;
 	padding: 0em 1em 0em 1em;
-	text-align: left;
+	text-align: justify;
 	font: Regular 14px/19px Segoe UI;
 	letter-spacing: 0;
 	color: #707070;
