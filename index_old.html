@@ -1,25 +1,39 @@
-<!DOCTYPE html>
+<!doctype html>
+<html class="no-js" lang="svk">
 
-<html lang="svk">
-	<head>
-	<meta charset="UTF-8">
-		<link rel="stylesheet" href="css/grid.css">
-      	<link rel="stylesheet" href="css/normalize.css">
-      	<link rel="stylesheet" href="css/main.css">
-	</head>
+<head>
+  <meta charset="utf-8">
+  <title>ECAV Modra</title>
+  <meta name="description" content="">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <link rel="manifest" href="site.webmanifest">
+  <link rel="apple-touch-icon" href="icon.png">
+  <!-- Place favicon.ico in the root directory -->
+
+  	<link rel="stylesheet" href="css/normalize.css">
+  	<link rel="stylesheet" href="css/main.css">
+	<link rel="stylesheet" href="css/grid_old.css">
+  <link href="https://fonts.googleapis.com/css?family=Varela&display=swap" rel="stylesheet">
+
+  <meta name="theme-color" content="#fafafa">
+</head>
+
 <body>
-	<main>
-		<div class="grid-container">
-				<div class="item1">
-					<header>  <!-- FIRST PART OF WEBPAGE CODE IS HEADER WITH MENU -->
-						<div id="header_wrapper">
-            	<div id="Lang_menu">
+  <!--[if IE]>
+    <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience and security.</p>
+  <![endif]-->
+	<div class="grid">
+  <!-- Add your site or application content here -->
+  <header>  <!-- FIRST PART OF WEBPAGE CODE IS HEADER WITH MENU -->
+		<div id="header_wrapper">
+            <div id="Lang_menu">
 				          <a id="slovak_flag"><img alt="SVK" src="img/iconfinder_Slovakia_92337.png"></a>
                   <a id="german_flag"><img alt="GER" src="img/iconfinder_Germany_flat_92094.png"></a>
                   <a id="english_flag"><img alt="ENG" src="img/iconfinder_United-Kingdom_flat_92402.png"></a>
 
 				          <!--Insert javascript menu for mobile devices-->
-							</div>
+			</div>
 
 			<h1>Cirkevný zbor ECAV na Slovensku Modra</h1>
 			<img id="title_pic" alt="Cirkevný zbor ECAV na Slovensku Modra" src="img/DSC_0197.png">
@@ -34,7 +48,16 @@
 			<a href="">FORMULARE</a>
 		</div>
 	</nav>
-</div>
+
+		<!-- SECOND PART OF WEBPAGE CODE IS CONTENT  -->
+
+	<main>
+<div class="grid-container">
+ <!--<div class="item1">
+	 <div>
+   <h1>Aktualne udalosti a Aktuality</h1> 
+	
+ </div> -->
 <div class="item2">
 
   <img id="spevokol" alt="Laudate Dominum" src="img/SPevokol.png">
@@ -57,9 +80,9 @@
 </div>
 
 <div class="item3">
-
-    <h2 id="main_subtitle">AKTIVITY A AKTUALITY</h2> <!-- Titulok stranky-->
-
+	<div class="page_title">
+    	<h3 id="main_subtitle">AKTIVITY A AKTUALITY</h3> <!-- Titulok stranky-->
+	</div>
     <div class="infocard">
 		<img alt="Informacia" src="img/SPevokol.png">
 		<div class="infotext">
@@ -98,5 +121,24 @@
 <div class="item5">Copyright FORTIS AURIS HACKERSPACE 2019 </div>
 </div>
 </main>
-  </body>
+
+		<footer>  <!--THIRD SECTION OF WEBPAGE IS FOOTER WITH USEFULL INFORMATIONS -->
+			<h6>Copyright</h6>
+		</footer>  <!-- END OF SECTION THREE -->
+<!-- javascript modernizer, jquery -->
+  <script src="js/vendor/modernizr-3.7.1.min.js"></script>
+  <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+  <script>window.jQuery || document.write('<script src="js/vendor/jquery-3.4.1.min.js"><\/script>')</script>
+  <script src="js/plugins.js"></script>
+  <script src="js/main.js"></script>
+
+  <!-- Google Analytics: change UA-XXXXX-Y to be your site's ID. -->
+  <script>
+    window.ga = function () { ga.q.push(arguments) }; ga.q = []; ga.l = +new Date;
+    ga('create', 'UA-XXXXX-Y', 'auto'); ga('set','transport','beacon'); ga('send', 'pageview')
+  </script>
+  <script src="https://www.google-analytics.com/analytics.js" async></script>
+		</div>
+</body>
+
 </html>

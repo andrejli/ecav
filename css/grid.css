@@ -1,6 +1,6 @@
 /* CSS Document */
 
-/*.item1 { grid-area: header; }*/
+.item1 { grid-area: header; }
 .item2 {
 	grid-area: menu;
 	text-align: center;
@@ -17,8 +17,7 @@
 .grid-container {
 display: grid;
 grid-template-areas:
-  'menu main main main main main main'
-  'menu main main main main main main'
+	'header header header header header header header'
   'menu main main main main main main'
   'footer footer footer footer footer footer footer';
 grid-gap: 10px;
