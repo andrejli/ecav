@@ -320,7 +320,7 @@ opacity: 1;
 	width: 23px;
 	height: 16px;
 	background: transparent url('img/iconfinder_Germany_flat_92094.png') 0% 0% no-repeat padding-box;
-	border: 1px solid #707070;
+	/* border: 1px solid #707070; */
 	opacity: 1;
 }
 
@@ -330,7 +330,7 @@ opacity: 1;
 	width: 23px;
 	height: 16px;
 	background: transparent url('img/iconfinder_United-Kingdom_flat_92402.png') 0% 0% no-repeat padding-box;
-	border: 1px solid #707070;
+	/* border: 1px solid #707070; */
 	opacity: 1;
 }
 
@@ -405,7 +405,6 @@ opacity: 1;
 	margin: 2% 2% 2% 2%;
 	width: auto;
 	height: auto;
-
 }
 
 #main_subtitle {
