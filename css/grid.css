@@ -1,6 +1,10 @@
 /* CSS Document */
 
-.item1 { grid-area: header; }
+.item1 {
+	grid-area: header;
+	padding: 0% 0% 2% 0%;
+}
+
 .item2 {
 	grid-area: menu;
 	text-align: center;
@@ -23,6 +27,8 @@ grid-template-areas:
 grid-gap: 10px;
 background-color: #2196F3;
 padding: 10px;
+width: 80%;
+margin: 0% 10% 0% 10%;
 }
 
 .grid-container > div {
