@@ -430,3 +430,8 @@ opacity: 1;
 	color: black;
   font-size: 1em;
 }
+
+.download_icon {
+	width: 1.5em;
+	height: auto;
+}
