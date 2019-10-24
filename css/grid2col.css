@@ -22,7 +22,7 @@
 display: grid;
 grid-template-areas:
 	'header header header header header header header'
-  'menu main main main main main main'
+  'main main main main main main main'
   'footer footer footer footer footer footer footer';
 grid-gap: 10px;
 background-color: #2196F3;
@@ -55,4 +55,13 @@ background-color: rgba(255, 255, 255, 0.8);
 	margin: auto 5%;
 }
 
-
+.infocard_full {
+	display: inline-flex;
+	width: 90%;
+	/* height: ; */
+	min-width: 480px;  /*TODO Refactor style*/
+	margin: 1em 0.5em 1em 0.5em;
+	padding: 10px 10px;
+	border: 2px darkorange solid;
+	border-radius: 5px;
+}
