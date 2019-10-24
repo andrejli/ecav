@@ -59,7 +59,7 @@ background-color: rgba(255, 255, 255, 0.8);
 	display: inline-flex;
 	width: 90%;
 	/* height: ; */
-	min-width: 480px;  /*TODO Refactor style*/
+	min-width: 480px;
 	margin: 1em 0.5em 1em 0.5em;
 	padding: 10px 10px;
 	border: 2px darkorange solid;
