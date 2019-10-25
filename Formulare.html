@@ -19,9 +19,21 @@
                   <a id="german_flag"><img alt="GER" src="img/iconfinder_Germany_flat_92094.png"></a>
                   <a id="english_flag"><img alt="ENG" src="img/iconfinder_United-Kingdom_flat_92402.png"></a>
 
-				     <!--Insert javascript menu for mobile devices-->
-					<a href="404.html"><img id="javascript_menu" alt="javascript hamburger menu" src="img/iconfinder_menu-alt_134216.svg"></a>
-							</div>
+				          <!--Insert javascript menu for mobile devices-->
+					<div id="mySidebar" class="sidebar">
+  						<a href="javascript:void(0)" class="closebtn" onclick="closeNav()">×</a>
+  							<a href="">AKTIVITY A AKTUALITY</a>
+							<a href="O_nas.html">O NÁS</a>
+							<a href="Historia.html">HISTÓRIA</a>
+							<a href="Zivotne_udalosti.html">ŽIVOTNÉ UDALOSTI</a>
+							<a href="Formulare.html">FORMULÁRE</a>
+					</div>
+					
+					<div id="main">
+  						<a class="openbtn" onclick="openNav()">
+							<img id="javascript_menu" alt="javascript hamburger menu" src="img/iconfinder_menu-alt_134216.svg"></a>  						
+					</div>
+				</div>
 
 			<h1>Cirkevný zbor ECAV na Slovensku Modra</h1>
 			<img id="title_pic" alt="Cirkevný zbor ECAV na Slovensku Modra" src="img/DSC_0197.png">
@@ -81,5 +93,17 @@ Tel: 0918 406 534</p>
 	Copyright FORTIS AURIS HACKERSPACE 2019 </div>
 </div>
 </main>
+	<!--Javascript scripts-->
+	<script>
+		function openNav() {
+  			document.getElementById("mySidebar").style.width = "250px";
+  			document.getElementById("main").style.marginLeft = "250px";
+			}
+
+			function closeNav() {
+  			document.getElementById("mySidebar").style.width = "0";
+  			document.getElementById("main").style.marginLeft= "0";
+			}
+	</script>
   </body>
 </html>
