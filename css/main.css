@@ -335,7 +335,7 @@ textarea {
 
 }
 
-@media screen and (max-width: 640px) {
+@media screen and (max-width : 720px ){
 	#inline_menu {display: none;}
 
 }
@@ -511,4 +511,22 @@ opacity: 1;
 .download_icon {
 	width: 1.5em;
 	height: auto;
+}
+
+.social_panel {
+	display: inline;
+	margin-top: 5%;
+	padding: 15px 15px;
+	/*border: 1px solid black;*/
+	justify-content: center;
+}
+
+.social_panel a {
+	width: 25px;
+	height: 25px;
+	
+}
+
+#sidepanel_wrap {
+	display: block;
 }
