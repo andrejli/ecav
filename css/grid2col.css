@@ -2,7 +2,7 @@
 
 .item1 {
 	grid-area: header;
-	padding: 0% 0% 2% 0%;
+	padding: 0%;
 }
 
 .item2 {
@@ -10,7 +10,12 @@
 	text-align: center;
 	width: auto;
 }
-.item3 { grid-area: main; }
+.item3 { 
+	grid-area: main; 
+	margin: 0px;
+	padding: 0px;
+	width: auto;
+}
 /*.item4 { grid-area: right; }*/
 .item5 {
 	grid-area: footer;

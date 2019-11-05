@@ -323,6 +323,8 @@ textarea {
   background-color: #444;
 }
 
+
+
 #main {
   transition: margin-left .5s;
   padding: 16px;
@@ -334,16 +336,9 @@ textarea {
   .sidebar a {font-size: 18px;}
 
 }
+/* Javascript Menu styles END */
 
-@media screen and (max-width : 720px ){
-	#inline_menu {display: none;}
-
-}
-
-
-/* Javascript sidemenu styles END */
-
-
+/* Styles of DOM parts of webpage  START*/
 #inline_menu {
 	display: inline;
 	margin: 2% 0% 2% 0%;
@@ -529,4 +524,98 @@ opacity: 1;
 
 #sidepanel_wrap {
 	display: block;
+}
+
+/*Grid styles start */
+
+.item1 {
+	grid-area: header;
+	padding: 0% 0% 2% 0%;
+}
+
+.item2 {
+	grid-area: menu;
+	text-align: center;
+	width: auto;
+}
+.item3 { grid-area: main; }
+/*.item4 { grid-area: right; }*/
+.item5 {
+	grid-area: footer;
+	text-align: center;
+}
+
+.grid-container {
+display: grid;
+grid-template-areas:
+	'header header header header header header header'
+  'menu main main main main main main'
+  'footer footer footer footer footer footer footer';
+grid-gap: 10px;
+background-color: #2196F3;
+padding: 10px;
+width: 80%;
+margin: 0% 10% 0% 10%;
+}
+
+.grid-container > div {
+background-color: rgba(255, 255, 255, 0.8);
+/* text-align: center; */
+/* padding: 20px 0; */
+/* font-size: 30px; */
+}
+
+.infocard {
+	display: inline-flex;
+	width: auto;
+	/* height: ; */
+	min-width: 530px;  /*TODO Refactor style*/
+	max-width: 60%;
+	margin: 1em 0.5em 1em 0.5em;
+	padding: 10px 10px;
+	border: 2px darkorange solid;
+	border-radius: 5px;
+}
+
+.page_title {
+	font-size: 1.5em;
+	margin: auto 5%;
+}
+
+/*Grid styles END */
+
+
+/*MEDIA QUERY FOR SMALL DEVICES */
+@media all and (max-width : 720px){
+	body {margin: 0%;}
+	#inline_menu {display: none;}
+	#side_panel {display: none;}
+	#javascript_menu {}  /*TODO Make bigger menu button*/
+	/* .sidebar {width: 100%;}*/  /*TODO Doesn't work well */
+	.grid-container {
+		margin: 0px;
+		width: 100%;
+		grid-template-areas:
+						'header'
+  						'main'
+						'menu'
+  						'footer';
+		}
+	
+	.item2 {
+		display: block;
+		align-content: stretch;
+		text-align: left;
+		font-size: 1.5em;
+		padding: 0% 0% 20% 0%;
+	}
+
+}
+
+/*MEDIA QUERY FOR NORMAL DEVICES */
+@media all and (min-width : 720px){
+	#javascript_menu {display: none;}
+	.openbtn {display: none;}
+	
+
 }
