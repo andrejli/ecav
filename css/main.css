@@ -427,8 +427,8 @@ opacity: 1;
 	display: block;
 	margin: 2% 2% 2% 2%;
 	padding: 2% 2%;
-	top: 601px;
-	left: 50px;
+	/*top: 601px;*/
+	/*left: 50px;*/
 	/*max-width: 200px;*/
 	height: auto;
   	align-self: center;
@@ -606,10 +606,20 @@ background-color: rgba(255, 255, 255, 0.8);
 		display: block;
 		align-content: stretch;
 		text-align: left;
+		width: 100%;
 		font-size: 1.5em;
 		padding: 0% 0% 20% 0%;
 	}
 
+	.infotext {
+		text-align: center;
+		width: 60%;
+	}
+	
+	#zivot_v_zbore {
+	max-width: 100%;
+}
+	
 }
 
 /*MEDIA QUERY FOR NORMAL DEVICES */
