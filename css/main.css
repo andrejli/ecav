@@ -619,7 +619,10 @@ background-color: rgba(255, 255, 255, 0.8);
 	#zivot_v_zbore {
 	max-width: 100%;
 }
-	
+	#Bohosluzobny_zivot  {
+		width: 90%;
+		height: auto;
+	}
 }
 
 /*MEDIA QUERY FOR NORMAL DEVICES */
