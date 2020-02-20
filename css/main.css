@@ -16,7 +16,7 @@ html {
   font-size: 1em;
   line-height: 1.4;
   font-family: 'Varela', sans-serif;
-  background-color: #03021F; /*#2196F3; */
+  background-color: #03021F !important; 
 }
 
 /*.content {
@@ -35,12 +35,12 @@ html {
  */
 
 ::-moz-selection {
-  background: #b3d4fc;
+  /* background: #b3d4fc; */
   text-shadow: none;
 }
 
 ::selection {
-  background: #b3d4fc;
+  /* background: #b3d4fc; */
   text-shadow: none;
 }
 
@@ -96,7 +96,7 @@ textarea {
 
 .browserupgrade {
   margin: 0.2em 0;
-  background: #ccc;
+  /* background: #ccc; */
   color: #000;
   padding: 0.2em 0;
 }
@@ -224,9 +224,9 @@ textarea {
 	 font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, "sans-serif";
   }
   a,
-  a:visited {
+  /* a:visited {
     /*text-decoration: underline;*/
-  }
+  /* } */
   a[href]:after {
     content: " (" attr(href) ")";
   }
@@ -510,7 +510,7 @@ opacity: 1;
 
 .social_panel {
 	display: inline;
-	margin-top: 5%;
+	/* margin-top: 5%; */
 	padding: 15px 15px;
 	/*border: 1px solid black;*/
 	justify-content: center;
@@ -565,16 +565,16 @@ background-color: rgba(255, 255, 255, 0.8);
 /* font-size: 30px; */
 }
 
-.infocard {
+.card {
 	display: inline-flex;
-	width: auto;
+	/* width: auto; */
 	/* height: ; */
-	min-width: 400px;  /*TODO Refactor style*/
-	max-width: 60%;
-	margin: 1em 0.5em 1em 0.5em;
-	padding: 10px 10px;
-	border: 2px darkorange solid;
-	border-radius: 5px;
+	/* min-width: 400px;  TODO Refactor style */
+	/* max-width: 60%; */
+	margin: 3%;
+	/* padding: 10px 10px; */
+	/* border: 2px darkorange solid; */
+	/* border-radius: 5px; */
 }
 
 .page_title {
@@ -588,9 +588,9 @@ background-color: rgba(255, 255, 255, 0.8);
 /*MEDIA QUERY FOR SMALL DEVICES */
 @media all and (max-width : 720px){
 	body {margin: 0%;}
-	#inline_menu {display: none;}
+	.btn-group {display: none;}
 	#side_panel {display: none;}
-	#javascript_menu {}  /*TODO Make bigger menu button*/
+	/* #javascript_menu {}  TODO Make bigger menu button */
 	/* .sidebar {width: 100%;}*/  /*TODO Doesn't work well */
 	.grid-container {
 		margin: 0px;
