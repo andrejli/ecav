@@ -445,6 +445,10 @@ opacity: 1;
 	margin: 2%;
 }
 
+.card_image {
+	/*TODO Add fixed width to all infocards*/
+}
+
 #Sluzby_Bozie {
 	/*top: 1360px;
 	left: 39px;*/
